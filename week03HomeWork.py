@@ -27,4 +27,4 @@ for tr in trs:
         'title': title,
         'artist': artist
     }
-    #db.musicRank.insert_one(doc)
+    db.musicRank.insert_one(doc)
